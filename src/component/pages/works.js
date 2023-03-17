@@ -24,7 +24,7 @@ const Works = () => {
             work.map((el) => {
                 const { id, name, url, image} = el;
                 return(
-                    <li className='container'>
+                    <li className='container' key={id}>
                     <a href={url} className='card'>
                     <img src={image} alt={name} className='imgSize'/>
                         <h3 className='title'>{name}</h3>
