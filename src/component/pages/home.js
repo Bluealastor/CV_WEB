@@ -30,7 +30,7 @@ const Home = () => {
               href="https://en.wikipedia.org/wiki/HTML5"
               title="HTML5"
               target="_blank"
-              rel="noopener">
+              rel="noreferrer">
               <FaHtml5
                 style={{ color: 'Orange' }}
                 className="icon size-icon-home">
@@ -43,7 +43,7 @@ const Home = () => {
               href="https://www.w3.org/Style/CSS/Overview.en.html"
               title="CSS3"
               target="_blank"
-              rel="noopener">
+              rel="noreferrer">
               <FaCss3
                 style={{ color: 'Blue' }}
                className="icon size-icon-home"></FaCss3>
@@ -52,7 +52,7 @@ const Home = () => {
           <li className="li-icon" style={{ color: 'Pink' }}> SASS
           <br/>
             <a href="https://sass-lang.com/" title="SASS" target="_blank"
-            rel="noopener">
+            rel="noreferrer">
               <FaSass
                 style={{ color: 'Pink' }}
                 className="icon size-icon-home">
@@ -63,7 +63,7 @@ const Home = () => {
           TailWindCss
           <br/>
             <a href="https://tailwindcss.com/" title="TAILWIND" target="_blank"
-            rel="noopener">
+            rel="noreferrer">
               <SiTailwindcss style={{color: '#00FFFF'}} className="icon size-icon-home"></SiTailwindcss>
             </a>
           </li>
@@ -74,7 +74,7 @@ const Home = () => {
               href="https://javascript.info/"
               title="JAVASCRIPT"
               target="_blank"
-              rel="noopener">
+              rel="noreferrer">
               <SiJavascript
                 style={{ color: 'Yellow' }}
                 className="icon size-icon-home">
@@ -88,7 +88,7 @@ const Home = () => {
               href="https://nodejs.org/it/docs"
               title="NODE.JS"
               target="_blank"
-              rel="noopener">
+              rel="noreferrer">
               <FaNodeJs
                 style={{ color: 'Green' }}
                 className="icon size-icon-home">
@@ -100,7 +100,7 @@ const Home = () => {
 
           <br/>
             <a href="https://17.reactjs.org/" title="REACT.JS" target="_blank"
-            rel="noopener">
+            rel="noreferrer">
               <FaReact style={{ color: '#0066FF' }} className="icon size-icon-home"></FaReact>
             </a>
           </li>
@@ -108,7 +108,7 @@ const Home = () => {
           NEXT.js
           <br/>
             <a href="https://nextjs.org/" title="NEXT.JS" target="_blank"
-            rel="noopener">
+            rel="noreferrer">
               <SiNextdotjs
                 style={{ color: 'Black' }}
                 className="icon size-icon-home"
