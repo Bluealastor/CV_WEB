@@ -46,9 +46,10 @@ p {
   letter-spacing: var(--letter-spacing);
 }
 
-li{
+.li-icon{
   display: inline-block;
   vertical-align: top;
+  margin: 2em;
 }
 @media screen and (min-width: 800px) {
   h1 {

@@ -4,7 +4,7 @@ const Contact =()=> {
     return(
         <>
             <h1>
-                WTF
+                Work in Progress
             </h1>
         </>
     )

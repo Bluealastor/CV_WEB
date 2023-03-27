@@ -34,13 +34,6 @@ const Works = () => {
             })
         }
     </ul>
-
-      {/* <li class="container">
-        <div class="card">
-          <img src="" alt="Netflox" className="imgSize" />
-          <h3 class="title">Card 1</h3>
-        </div>
-      </li> */}
     </>
   )
 }
