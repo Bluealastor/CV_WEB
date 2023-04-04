@@ -1,5 +1,6 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {GoMail} from "react-icons/go"
 
 const links = [
   {
@@ -12,28 +13,28 @@ const links = [
     url: "/works",
     text: "progetti",
   },
-  {
-    id: 3,
-    url: "/contact",
-    text: "contattaci",
-  },
+  // {
+  //   id: 3,
+  //   url: "/contact",
+  //   text: "contattami",
+  // },
 ];
 
 const socialLinks = [
   {
     id: 1,
-    url: "https://twitter.com",
-    icon: <FaTwitter className="icon" />,
-  },
-  {
-    id: 2,
     url: "https://github.com/Bluealastor",
     icon: <FaGithub className="icon" />,
   },
   {
-    id: 3,
+    id: 2,
     url: "https://www.linkedin.com/in/christian-esposito-developer",
     icon: <FaLinkedinIn className="icon" />,
+  },
+  {
+    id:3,
+    url:"mailto:chrisexp00@gmail.com",
+    icon:<GoMail className="icon"/>
   },
 ];
 

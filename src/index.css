@@ -34,10 +34,12 @@ a {
   text-decoration: none;
   color: unset;
 }
-
 hr {
   border: none;
   border-bottom: 1px solid var(--divider-color);
+}
+.tecno{
+  margin: 0;
 }
 
 p {
@@ -47,10 +49,20 @@ p {
 }
 
 .li-icon{
-  display: inline-block;
+  display: inline-grid;
   vertical-align: top;
-  margin: 2em;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.2em;
+  width: 7em;
 }
+
+.card-iperlink{
+  display: flexbox;
+  justify-items: center;
+}
+
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -104,6 +116,7 @@ p {
 .size-icon-home{
   font-size:2rem;
   margin:0.8rem;
+  align-self: center
 }
 
 
@@ -303,6 +316,7 @@ p {
   vertical-align: top;
   margin-left: 1em;
   margin-top: 1em;
+  border-radius: 10px;
 }
 
 .card {
@@ -349,4 +363,5 @@ p {
 .imgSize{
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
